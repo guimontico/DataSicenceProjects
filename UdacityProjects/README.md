@@ -1,9 +1,11 @@
 Insights based on Stack overflow survey
 
-QUESTIONS that motivate this EDA:
-What most influences career satisfaction?
-What do the people who earn the most salaries have in common among the respondents?(between education, yearcoding and orgSize)
-Can we predict what is necessary to join a big company?
+QUESTIONS that motivate this EDA:    
+What most influences career satisfaction?    
+What do the people who earn the most salaries have in common among the respondents?(between education and orgSize)    
+Can we predict what is necessary to join a big company?    
+
+the study of this case is in the blogpost: [Medium blogpost](https://medium.com/@guilhermebmontico/what-makes-you-earn-more-in-your-developer-career-e4dd3cd53ce7)
 
 Description:
 
