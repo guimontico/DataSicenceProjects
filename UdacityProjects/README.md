@@ -1,13 +1,23 @@
 Insights based on Stack overflow survey
 
-QUESTIONS that motivate this EDA:    
+### Table of Contents
+
+1. [Installation](#installation)
+2. [QUESTIONS that motivate this EDA](#motivation)
+3. [Files & Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Installation <a name="installation"></a>
+
+The code was written in Python 3 and requires the following packages: Pandas, Numpy, Collections, Matplotlib, Seaborn, Scipy, SkLearn and Warnings.
+
+## QUESTIONS that motivate this EDA<a name="motivation"></a>   
 What most influences career satisfaction?    
 What do the people who earn the most salaries have in common among the respondents?(between education and orgSize)    
 Can we predict what is necessary to join a big company?    
 
-the study of this case is in the blogpost: [Medium blogpost](https://medium.com/@guilhermebmontico/what-makes-you-earn-more-in-your-developer-career-e4dd3cd53ce7)
-
-Description:
+## Files & Descriptions <a name="files"></a>
 
 Stack Overflow Survey is the most important survey related to development area, so we can find insights as growing technologies, salary diferences and more insights based on questions. Free response submissions and personally identifying information have been removed from the results to protect the privacy of respondents. There are two files besides this README:
 
@@ -28,7 +38,17 @@ Find previous survey results here:
 
 https://insights.stackoverflow.com/survey
 
-Legal:
+## Results<a name="results"></a>
+
+the study of this case is in the [Medium blogpost](https://medium.com/@guilhermebmontico/what-makes-you-earn-more-in-your-developer-career-e4dd3cd53ce7)
+
+In this study we find that high salary does not imply job satisfaction.    
+People with a high degree of study as a Doctorate have the highest average salary.    
+It doesn't have great precision in predicting what it takes to join any major company in the world    
+
+Sometimes we need to understand if we are asking the right questions to get the answers we need, even if an answer is not conclusive directly in your question, it can indicate some information relevant to the career of the developers. 
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 This database - The Public 2019 Stack Overflow Developer Survey Results - is made available under the Open Database License (ODbL): http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
