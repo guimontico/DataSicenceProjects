@@ -14,12 +14,12 @@ The code was written in Python 3 and requires the following packages: Pandas, Nu
 
 ## QUESTIONS that motivate this EDA<a name="motivation"></a>   
 What most influences career satisfaction?    
-What do the people who earn the most salaries have in common among the respondents?(between education and orgSize)    
+What do the people who earn the most salaries have in common among the respondents? (between education and orgSize)    
 Can we predict what is necessary to join a big company?    
 
 ## Files & Descriptions <a name="files"></a>
 
-Stack Overflow Survey is the most important survey related to development area, so we can find insights as growing technologies, salary diferences and more insights based on questions. Free response submissions and personally identifying information have been removed from the results to protect the privacy of respondents. There are two files besides this README:
+Stack Overflow Survey is the most important survey related to the development area, so we can find insights as growing technologies, salary differences and more insights based on questions. Free response submissions and personally-identifying information have been removed from the results to protect the privacy of respondents. There are two files besides this README:
 
 1. survey_results_public.csv - CSV file with main survey results, one respondent per row and one column per answer
 2. survey_results_schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
@@ -28,7 +28,7 @@ The survey was fielded from January 23 to February 14, 2019.
 
 Respondents were recruited primarily through channels owned by Stack Overflow. The top 5 sources of respondents were onsite messaging, blog posts, email lists, Meta posts, banner ads, and social media posts. Since respondents were recruited in this way, highly engaged users on Stack Overflow were more likely to notice the links for the survey and click to begin it.
 
-As an incentive, respondents who finished the survey could opt in to a "Census" badge if they completed the survey.
+As an incentive, respondents who finished the survey could opt into a "Census" badge if they completed the survey.
 
 You can find the official published results here:
 
@@ -40,9 +40,9 @@ https://insights.stackoverflow.com/survey
 
 ## Results<a name="results"></a>
 
-the study of this case is in the [Medium blogpost](https://medium.com/@guilhermebmontico/what-makes-you-earn-more-in-your-developer-career-e4dd3cd53ce7)
+the study of this case is in the [Medium blog post](https://medium.com/@guilhermebmontico/what-makes-you-earn-more-in-your-developer-career-e4dd3cd53ce7)
 
-In this study we find that high salary does not imply job satisfaction.    
+In this study, we find that a high salary does not imply job satisfaction.    
 People with a high degree of study as a Doctorate have the highest average salary.    
 It doesn't have great precision in predicting what it takes to join any major company in the world    
 
