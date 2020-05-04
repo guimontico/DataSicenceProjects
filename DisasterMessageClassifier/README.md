@@ -1,4 +1,4 @@
-# Data Science Nanodegree Project 5: Disaster Response Pipeline Webapp
+# Data Science Nanodegree Project: Disaster Response Pipeline Webapp
 
 Author: Guilherme Bruno Montico
 
