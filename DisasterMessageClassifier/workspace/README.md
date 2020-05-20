@@ -1,5 +1,17 @@
 # Disaster Response Pipeline Project
+### Project Description:
 
+In this project, I built a machine learning pipeline built into a flask application. The project include a web app where an emergency worker can input a message and get classification results.
+
+### File Descriptions:
+The project contains the following files,
+
+* ETL Pipeline Preparation.ipynb: Notebook for the ETL pipelines
+* ML Pipeline Preparation.ipynb: Notebook for the machine learning pipelines
+* data/process_data.py: The ETL pipeline used to process data in preparation for model building.
+* models/train_classifier.py: The Machine Learning pipeline used to fit, improve, evaluate, and export the model to a Python pickle.
+* app/templates/~.html: HTML pages for the web app.
+* run.py: Start the Python server for the web app and prepare visualizations.
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
