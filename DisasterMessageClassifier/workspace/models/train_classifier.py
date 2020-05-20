@@ -72,21 +72,25 @@ def tokenize(text):
 
 def build_model():
     """
-    Creates machine learning pipeline
-    
-    Returns:
-        pipeline: Machine Learning pipeline
+    Build model with a pipeline
     """
-    
-    logit_reg = LogisticRegression(random_state=42)
 
+    # create pipeline
     pipeline = Pipeline([
-        ('vect', CountVectorizer(tokenizer=tokenize)),
-        ('tfidf', TfidfTransformer()),
-        ('clf', MultiOutputClassifier(logit_reg, n_jobs=-1))
-    ])
-    
-    return pipeline
+        ('features', FeatureUnion([('text', Pipeline([('vect', CountVectorizer(tokenizer=tokenize)),
+                                                     ('tfidf', TfidfTransformer()),
+                                                     ])),
+                                  ('length', Pipeline([('count', FunctionTransformer(compute_text_length, validate=False))]))]
+                                 )),
+        ('clf', MultiOutputClassifier(RandomForestClassifier()))])
+
+    # use GridSearch to tune model with optimal parameters
+    parameters = {'features__text__vect__ngram_range':[(1,2),(2,2)],
+            'clf__estimator__n_estimators':[50, 100]
+             }
+    cv = GridSearchCV(pipeline, param_grid=parameters, cv=2, n_jobs=4, verbose=3)
+
+    return cv
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
