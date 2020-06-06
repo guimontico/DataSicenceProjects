@@ -10,4 +10,7 @@ The project did in Data Science Nanodegree course
 Using analysis techniques, some question was made and answered about Job Satisfaction, salary, and education level based on the Stack Overflow developer survey.
 
  - [DisasterMessageClassifier Project:](https://github.com/guimontico/DataSicenceProjects/tree/master/DisasterMessageClassifier)
-Using knowledge acquired in the machine learning and software engineering session, a web application was developed to classify messages to identify disasters, tremors, abandoned children, etc...
+Using knowledge acquired in the machine learning and software engineering session, a web application was developed to classify messages to identify disasters, tremors, abandoned children, and more.
+
+ - [Recommendation System Project:](https://github.com/guimontico/DataSicenceProjects/tree/master/RecommendationSystem)
+Using user interactions on IBMs article platform to build multiple recommendation systems to new users. Using three types of recommendation enginges, rank based recommendations, user-User Collaborative based recommendations and SVD based recommendations
