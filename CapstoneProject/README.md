@@ -27,9 +27,8 @@ The repo layout in this instance is relatively simple. The work done can be foun
 * `matplotlib`
 * `numpy`
 * `pandas`
-* `pickle`
-* `os`
-* `tqdm`
+* `seaborn`
+
 
 ## Acknowledgements
 
