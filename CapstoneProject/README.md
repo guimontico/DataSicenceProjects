@@ -1,4 +1,4 @@
-# Data Science Nanodegree Project: Building a Binary Classifier with Spark
+# Data Science Nanodegree Project: Logistic Regression with Spark
 
 Author: Guilherme Bruno Montico
 
