@@ -14,3 +14,6 @@ Using knowledge acquired in the machine learning and software engineering sessio
 
  - [Recommendation System Project:](https://github.com/guimontico/DataSicenceProjects/tree/master/RecommendationSystem)
 Using user interactions on IBMs article platform to build multiple recommendation systems to new users. Using three types of recommendation enginges, rank based recommendations, user-User Collaborative based recommendations and SVD based recommendations
+
+ - [Sparkify Capstone Project:](https://github.com/guimontico/DataSicenceProjects/tree/master/CapstoneProject)
+The objective of this project is to apply Spark knowledge and create a product that can be deployed with large cloud datasets applying the techniques developed in the course and in extra curricular sessions. The goal was to discover the high-risk group of customers who are likely to churn.
